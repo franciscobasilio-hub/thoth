@@ -1,2 +1,0 @@
-# thoth
-Aplicativo corporativo
