@@ -1,0 +1,6 @@
+command: ["gunicorn", "app:app", "--bind", "0.0.0.0:8000", "--workers", "2", "--threads", "8", "--timeout", "180"]
+
+env:
+  - name: THOTH_VOLUME_PATH
+    value: "/Volumes/prd_operacoes/silver_pesquisa_operacional/thoth_base"
+    
